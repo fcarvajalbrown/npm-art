@@ -1,0 +1,31 @@
+{
+  "name": "patterndrop",
+  "version": "1.0.0",
+  "description": "Drop a random ASCII pattern in your terminal. 25+ patterns scraped from ascii-patterns/gallery.",
+  "main": "patterns.js",
+  "bin": {
+    "patterndrop": "./bin/patterndrop.js"
+  },
+  "scripts": {
+    "start": "node bin/patterndrop.js",
+    "test": "node bin/patterndrop.js && node bin/patterndrop.js --list"
+  },
+  "keywords": [
+    "ascii",
+    "art",
+    "patterns",
+    "terminal",
+    "cli",
+    "npx"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "bin/",
+    "patterns.js",
+    "README.md"
+  ]
+}
