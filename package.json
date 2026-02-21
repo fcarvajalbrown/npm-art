@@ -1,5 +1,5 @@
 {
-  "name": "patterndrop",
+  "name": "@fcarvajalbrown/patterndrop",
   "version": "1.0.0",
   "description": "Drop a random ASCII pattern in your terminal. 25+ patterns scraped from ascii-patterns/gallery.",
   "main": "patterns.js",
@@ -18,7 +18,7 @@
     "cli",
     "npx"
   ],
-  "author": "",
+  "author": "fcarvajalbrown",
   "license": "MIT",
   "engines": {
     "node": ">=14"
@@ -27,5 +27,12 @@
     "bin/",
     "patterns.js",
     "README.md"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fcarvajalbrown/patterndrop.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
